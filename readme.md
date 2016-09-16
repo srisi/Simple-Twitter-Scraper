@@ -24,7 +24,7 @@ Namely, you need the following:
 To obtain these keys, do the following:
 
 1. Create a twitter account
-2. Go to https://apps.twitter.com/
+2. Go to https://apps.twitter.com/<br>
     Click: "Create an application"
         Here, you can enter placeholder values or whatever you want, e.g.:
         Name: asdf846
