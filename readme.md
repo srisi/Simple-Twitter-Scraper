@@ -25,13 +25,13 @@ To obtain these keys, do the following:
 
 1. Create a twitter account
 2. Go to https://apps.twitter.com/<br>
-    Click: "Create an application"
-        Here, you can enter placeholder values or whatever you want, e.g.:
-        Name: asdf846
-        Description: asdfasdfasdf
+    Click: "Create an application"<br>
+        Here, you can enter placeholder values or whatever you want, e.g.:<br>
+        Name: asdf846<br>
+        Description: asdfasdfasdf<br>
         Website: http://www.asdf.com
 
-    Click: "Create your Twitter application"
+    Click: "Create your Twitter application"<br>
     In the following screen, go to the tab "Keys and Access Tokens
 
     Copy the Consumer Key and Consumer Secret from "Application Settings"
