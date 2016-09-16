@@ -38,9 +38,9 @@ To obtain these keys, do the following:
     Copy the Access Token and Access Token Secret from "Your Access Token"
 
 3. Fill in the following placeholder values at the top of simple_scraper.py with your keys:
-    CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
-    Note: each of these keys have to be strings, so you need to surround your keys with quotation marks e.g.
-    CONSUMER_KEY = "OEitehociOGe069toeifDotea"
+    <br>CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+    <br>Note: each of these keys have to be strings, so you need to surround your keys with quotation marks e.g.
+    <br>CONSUMER_KEY = "OEitehociOGe069toeifDotea"
 
 ## Tutorial
 For a tutorial, look (and run) through the tutorial() function at the end of simple_scraper.py
@@ -49,7 +49,7 @@ To run the tutorial, open a terminal, move to the folder with simple_scraper.py 
 
 ## Usage
 The easiest way to use simple_scraper.py is to modify the `if __name__ == '__main__':` section at the end of the file and then run the scraper from a terminal using `python simple_scraper.py`. 
-For example, to scrape 100 tweets mentioning @realdonaldtrump for the last 10 days and storing them to trump.csv, your main function would look like this:
+<br>For example, to scrape 100 tweets mentioning @realdonaldtrump for the last 10 days and storing them to trump.csv, your main function would look like this:
 
 ```
 if __name__=='__main__':
