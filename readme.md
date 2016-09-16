@@ -2,6 +2,7 @@
 Simple Twitter Scraper
 ======================
 
+This scraper allows you to scrape tweets mentioning a particular term and storing them in a csv file.
 
 ## Setting Up
 
