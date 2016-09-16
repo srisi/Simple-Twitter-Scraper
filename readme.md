@@ -44,6 +44,7 @@ To obtain these keys, do the following:
 
 ## Tutorial
 For a tutorial, look (and run) through the tutorial() function at the end of simple_scraper.py
+
 To run the tutorial, open a terminal, move to the folder with simple_scraper.py and execute `python simple_scraper.py`
 
 ## Usage
