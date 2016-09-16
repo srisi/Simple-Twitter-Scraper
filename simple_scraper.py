@@ -6,17 +6,10 @@ import csv, codecs, cStringIO
 from dateutil import parser
 
 
-CONSUMER_KEY = 'kIKAkufr8DuAfXkfZiD2E3XXw'
-CONSUMER_SECRET = '6dkaQtzukCtzCNyydnhrX6yL1nq91ucYMoZM6gOJczc1d960GT'
-ACCESS_TOKEN = '760542384031531008-Rw4zRjZAAjWbQaPUjHNWA2DPQiHYYYr'
-ACCESS_TOKEN_SECRET = '5FcpUCMamFlfkARfi49PXcZvIFZK3tYVG1ZNGAtLrg5wd'
-
-
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-
-api = tweepy.API(auth, wait_on_rate_limit=True)
-
+CONSUMER_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+ACCESS_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+ACCESS_TOKEN_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 def scrape_term(term, max_tweets=10000000, start_date='2016-01-01', end_date='2017-01-01'):
@@ -29,7 +22,6 @@ def scrape_term(term, max_tweets=10000000, start_date='2016-01-01', end_date='20
     :return A list of tweet dicts. Each dict represents a tweet and has the following keys:
         'tweet_id', 'date', 'text', 'author_id', 'author_name', 'author_screen_name', 'is_retweet', 'retweets_number'
     '''
-
 
     api = set_up_twitter_api()
     tweets = []
@@ -178,7 +170,7 @@ class UnicodeWriter:
             self.writerow(row)
 
 
-if __name__=='__main__':
+def tutorial():
 
     ###############################################
     ##          HOW TO USE THIS SCRAPER          ##
@@ -208,3 +200,10 @@ if __name__=='__main__':
     # to store_tweets_to_csv:
     store_tweets_to_csv(tweets_3, 'trump.csv')
 
+if __name__=='__main__':
+
+    tutorial()
+
+    # Sample usage (uncomment to run)
+    # tweets = scrape_term_by_day('@realdonaldtrump', start_date='2016-09-06', end_date = '2016-09-16', tweets_per_day=100)
+    # store_tweets_to_csv(tweets, 'trump.csv')
