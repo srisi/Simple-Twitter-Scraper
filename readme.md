@@ -13,7 +13,7 @@ First, install the tweepy library
 ```
 Next, either:
 - Click the "Clone or Download" button and download the zip file. Then extract simple_scraper.py from the zip file.
-- Install git and clone this repository by entering the following command in a terminal: 'git clone https://github.com/srisi/Simple-Twitter-Scraper.git'
+- Install git and clone this repository by entering the following command in a terminal: `git clone https://github.com/srisi/Simple-Twitter-Scraper.git`
 
 
 To get these scripts working, you need to jump through some hoops to get twitter api access.
