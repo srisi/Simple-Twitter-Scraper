@@ -48,7 +48,7 @@ For a tutorial, look (and run) through the tutorial() function at the end of sim
 To run the tutorial, open a terminal, move to the folder with simple_scraper.py and execute `python simple_scraper.py`
 
 ## Usage
-The easiest way to use simple_scraper.py is to modify the `if __name__ == '__main__': section and then run the scraper from a terminal using `python simple_scraper.py`. 
+The easiest way to use simple_scraper.py is to modify the `if __name__ == '__main__':` section at the end of the file and then run the scraper from a terminal using `python simple_scraper.py`. 
 For example, to scrape 100 tweets mentioning @realdonaldtrump for the last 10 days and storing them to trump.csv, your main function would look like this:
 
 ```
